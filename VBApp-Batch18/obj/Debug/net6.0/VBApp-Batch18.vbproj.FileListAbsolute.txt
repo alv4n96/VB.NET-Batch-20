@@ -1,0 +1,15 @@
+D:\C#_PROJECTS\VBApp-Batch18\VBApp-Batch18\bin\Debug\net6.0\VBApp-Batch18.exe
+D:\C#_PROJECTS\VBApp-Batch18\VBApp-Batch18\bin\Debug\net6.0\VBApp-Batch18.deps.json
+D:\C#_PROJECTS\VBApp-Batch18\VBApp-Batch18\bin\Debug\net6.0\VBApp-Batch18.runtimeconfig.json
+D:\C#_PROJECTS\VBApp-Batch18\VBApp-Batch18\bin\Debug\net6.0\VBApp-Batch18.dll
+D:\C#_PROJECTS\VBApp-Batch18\VBApp-Batch18\bin\Debug\net6.0\VBApp-Batch18.pdb
+D:\C#_PROJECTS\VBApp-Batch18\VBApp-Batch18\obj\Debug\net6.0\VBApp-Batch18.vbproj.AssemblyReference.cache
+D:\C#_PROJECTS\VBApp-Batch18\VBApp-Batch18\obj\Debug\net6.0\VBApp-Batch18.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_PROJECTS\VBApp-Batch18\VBApp-Batch18\obj\Debug\net6.0\VBApp-Batch18.AssemblyInfoInputs.cache
+D:\C#_PROJECTS\VBApp-Batch18\VBApp-Batch18\obj\Debug\net6.0\VBApp-Batch18.AssemblyInfo.vb
+D:\C#_PROJECTS\VBApp-Batch18\VBApp-Batch18\obj\Debug\net6.0\VBApp-Batch18.vbproj.CoreCompileInputs.cache
+D:\C#_PROJECTS\VBApp-Batch18\VBApp-Batch18\obj\Debug\net6.0\VBApp-Batch18.dll
+D:\C#_PROJECTS\VBApp-Batch18\VBApp-Batch18\obj\Debug\net6.0\refint\VBApp-Batch18.dll
+D:\C#_PROJECTS\VBApp-Batch18\VBApp-Batch18\obj\Debug\net6.0\VBApp-Batch18.pdb
+D:\C#_PROJECTS\VBApp-Batch18\VBApp-Batch18\obj\Debug\net6.0\VBApp-Batch18.genruntimeconfig.cache
+D:\C#_PROJECTS\VBApp-Batch18\VBApp-Batch18\obj\Debug\net6.0\ref\VBApp-Batch18.dll
