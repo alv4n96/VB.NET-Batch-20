@@ -83,7 +83,8 @@
         'Public role As String
 
         Public Overrides Function ToString() As String
-            Return $"EmpId           : {Me.EmpId}, 
+            Return $"
+EmpId           : {Me.EmpId}, 
 First Name      : {FirstName},
 Last Name       : {LastName},
 Join Date       : {JoinDate},
