@@ -1,9 +1,7 @@
 ﻿Namespace PartTwo
-    Public Class Programmer
-        Inherits Employee
+    Public Class Programmer : Inherits Employee
 
         Private _transportasi As Double
-
 
         Public Sub New(firstName As String, lastName As String,
                        joinDate As Date, basicSalary As Double,
@@ -16,7 +14,23 @@
         Public Overrides Function ToString() As String
             Return $"{MyBase.ToString()}
 TjTransportasi  : {Transportasi},
+Nett Salary     : {Nett()},
+Gross Salary    : {Gross()},
 Total Salary    : {TotalSalary}"
+        End Function
+
+        Public Overrides Function Gross() As Double
+            Static grossSalary = TotalSalary
+
+            Return grossSalary
+        End Function
+
+        Public Overrides Function Nett() As Double
+            Static pph = 0.1 * TotalSalary
+            Static ppn = 0.2 * TotalSalary
+            Static nettSalary = TotalSalary - (pph + ppn)
+
+            Return nettSalary
         End Function
 
         Public Property Transportasi As Double

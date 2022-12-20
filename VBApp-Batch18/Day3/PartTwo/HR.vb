@@ -2,16 +2,14 @@
     Public Class HR
         Implements IHR
         Public Sub DisplayEmployee(listEmps As List(Of Employee)) Implements IHR.DisplayEmployee
-            For Each Employee In listEmps
-                Console.WriteLine(Employee)
+            For Each emp In listEmps
+                Console.WriteLine($"{emp.ToString} NettSal : {emp.Net}, GrosSal: {emp.Gross}")
             Next
         End Sub
 
 
         Public Function InitEmployee() As List(Of Employee) Implements IHR.InitEmployee
             Dim listEmp As New List(Of Employee) From {
-                New Employee(1, "Kang", "Dian", DateTime.Now, 5_000_000),
-                New Employee("koh", "Ericson", DateTime.Now(), 5_500_000),
                 New Programmer("Anton", "Pratama", #03/03/2015#, 6_000_000, 500_000),
                 New Programmer("Budi", "Junaedi", #08/15/2016#, 6_000_000, 500_000),
                 New Programmer("Charlie", "Van Dijk", #09/05/2017#, 6_000_000, 500_000),

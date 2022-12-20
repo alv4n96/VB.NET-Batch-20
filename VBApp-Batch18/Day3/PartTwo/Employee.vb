@@ -1,5 +1,5 @@
 ﻿Namespace PartTwo
-    Public Class Employee
+    Public MustInherit Class Employee
         Private _empId As Integer
         Private _firstName As String
         Private _lastName As String
@@ -80,8 +80,11 @@
 
             End Set
         End Property
-        'Public role As String
 
+        Public MustOverride Function Nett() As Double
+        Public MustOverride Function Gross() As Double
+
+        'Public role As String
         Public Overrides Function ToString() As String
             Return $"
 EmpId           : {Me.EmpId}, 

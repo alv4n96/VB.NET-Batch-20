@@ -1,6 +1,6 @@
 ﻿Namespace PartTwo
-    Public Class Sales
-        Inherits Employee
+    Public Class Sales : Inherits Employee
+
         Private _bonus As Double
         Private _commission As Double
 
@@ -18,7 +18,23 @@
             Return $"{MyBase.ToString()}
 Bonus           : {Bonus},
 Comission       : {Commission},
+Nett Salary     : {Nett()},
+Gross Salary    : {Gross()},
 Total Salary    : {TotalSalary}"
+        End Function
+
+        Public Overrides Function Gross() As Double
+            Static grossSalary = TotalSalary
+
+            Return grossSalary
+        End Function
+
+        Public Overrides Function Nett() As Double
+            Static pph = 0.1 * TotalSalary
+            Static ppn = 0.2 * TotalSalary
+            Static nettSalary = TotalSalary - (pph + ppn)
+
+            Return nettSalary
         End Function
 
         Public Overrides Property BasicSalary As Double
