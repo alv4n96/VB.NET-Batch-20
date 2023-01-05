@@ -1,11 +1,12 @@
 Imports System
+Imports VBApp_Batch18.Day05
 Imports VBApp_Batch18.PartOne
 Imports VBApp_Batch18.PartTwo
 
 Module Program
     Sub Main(args As String())
 
-        ModulePartTwo.InitEmployee()
+        'ModulePartTwo.InitEmployee()
 
 
         'ModuleArray.DisplayArray()
@@ -70,6 +71,8 @@ Module Program
         '    Console.WriteLine("Employee NOT FOUND!")
         'End If
 
+
+        FirstAdoNet.GetRegion()
     End Sub
 
     Sub SayMyName()

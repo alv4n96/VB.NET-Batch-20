@@ -3,7 +3,7 @@
         Implements IHR
         Public Sub DisplayEmployee(listEmps As List(Of Employee)) Implements IHR.DisplayEmployee
             For Each emp In listEmps
-                Console.WriteLine($"{emp.ToString} NettSal : {emp.Net}, GrosSal: {emp.Gross}")
+                Console.WriteLine($"{emp.ToString} NettSal : {emp.BasicSalary}, GrosSal: {emp.Gross}")
             Next
         End Sub
 
