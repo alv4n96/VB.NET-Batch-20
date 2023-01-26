@@ -1,0 +1,15 @@
+D:\C#_PROJECTS\VBApp-Batch18\UsefulConcept\bin\Debug\net6.0\UsefulConcept.exe
+D:\C#_PROJECTS\VBApp-Batch18\UsefulConcept\bin\Debug\net6.0\UsefulConcept.deps.json
+D:\C#_PROJECTS\VBApp-Batch18\UsefulConcept\bin\Debug\net6.0\UsefulConcept.runtimeconfig.json
+D:\C#_PROJECTS\VBApp-Batch18\UsefulConcept\bin\Debug\net6.0\UsefulConcept.dll
+D:\C#_PROJECTS\VBApp-Batch18\UsefulConcept\bin\Debug\net6.0\UsefulConcept.pdb
+D:\C#_PROJECTS\VBApp-Batch18\UsefulConcept\obj\Debug\net6.0\UsefulConcept.csproj.AssemblyReference.cache
+D:\C#_PROJECTS\VBApp-Batch18\UsefulConcept\obj\Debug\net6.0\UsefulConcept.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_PROJECTS\VBApp-Batch18\UsefulConcept\obj\Debug\net6.0\UsefulConcept.AssemblyInfoInputs.cache
+D:\C#_PROJECTS\VBApp-Batch18\UsefulConcept\obj\Debug\net6.0\UsefulConcept.AssemblyInfo.cs
+D:\C#_PROJECTS\VBApp-Batch18\UsefulConcept\obj\Debug\net6.0\UsefulConcept.csproj.CoreCompileInputs.cache
+D:\C#_PROJECTS\VBApp-Batch18\UsefulConcept\obj\Debug\net6.0\UsefulConcept.dll
+D:\C#_PROJECTS\VBApp-Batch18\UsefulConcept\obj\Debug\net6.0\refint\UsefulConcept.dll
+D:\C#_PROJECTS\VBApp-Batch18\UsefulConcept\obj\Debug\net6.0\UsefulConcept.pdb
+D:\C#_PROJECTS\VBApp-Batch18\UsefulConcept\obj\Debug\net6.0\UsefulConcept.genruntimeconfig.cache
+D:\C#_PROJECTS\VBApp-Batch18\UsefulConcept\obj\Debug\net6.0\ref\UsefulConcept.dll
