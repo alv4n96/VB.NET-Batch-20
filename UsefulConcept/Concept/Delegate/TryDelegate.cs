@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
@@ -21,7 +22,10 @@ namespace UsefulConcept.Concept.Delegate
             //HandleTopicTwoActionRun();
 
             //Func Implementation ( Part 3 )
-            HandleTopicThreeActionRun();
+            //HandleTopicThreeFuncRun();
+
+            //Predicate Implementation ( Part 4 )
+            HandleTopicFourPredicateRun();
             
 
         }
@@ -91,9 +95,9 @@ namespace UsefulConcept.Concept.Delegate
         static void Show2(string firstName, string lastName ,int age) => Console.WriteLine($"Show2 with name : {firstName} {lastName}, and Age {age} is Called");
         static void Show3(string firstName, string lastName ,int age) => Console.WriteLine($"Show3 with name : {firstName} {lastName}, and Age {age} is Called");
 
-        //Topic 3 -- 
+        //Topic 3 -- Func<> just for 16 variable and must have return, int the last variable 
 
-        static void HandleTopicThreeActionRun()
+        static void HandleTopicThreeFuncRun()
         {
             // for Func, we use methods from Topic 1, wheter is Sum and Difference
             int a = 15;
@@ -113,5 +117,17 @@ namespace UsefulConcept.Concept.Delegate
             Console.WriteLine($"it's called {nameof(funcChainDel)} with method Diff, and result is {funcChainDel(a, b)}");
 
         }
+
+        //Topic 4 -- predicatejust for 16 variable, and return must boolean
+
+        static void HandleTopicFourPredicateRun()
+        {
+            Predicate<int> isGreaterThan20 = TestGreaterThan20;
+
+            Console.WriteLine($"25 Greater Than 20? {isGreaterThan20(25)}");
+            Console.WriteLine($"15 Greater Than 20? {isGreaterThan20(15)}");
+        }
+
+        static bool TestGreaterThan20(int num) => num > 20;
     }
 }
