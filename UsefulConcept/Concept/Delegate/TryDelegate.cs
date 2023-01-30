@@ -18,11 +18,15 @@ namespace UsefulConcept.Concept.Delegate
             //HandleTopicTwoRun();
 
             //Action Implementation ( Part 2 )
-            HandleTopicTwoActionRun();
+            //HandleTopicTwoActionRun();
+
+            //Func Implementation ( Part 3 )
+            HandleTopicThreeActionRun();
             
 
         }
 
+        //delegate is references type, it's like non-static methods
         delegate int Calculate(int a, int b); 
 
         //Topic 1 -- Delegate
@@ -66,7 +70,7 @@ namespace UsefulConcept.Concept.Delegate
             return a-b;
         }
 
-        //Topic 2 -- Action
+        //Topic 2 -- Action doesnt have return value
         static void HandleTopicTwoActionRun()
         {
             //pada deklarasi var untuk Action, itu harus sesuai dan urut dengan input parameter dari fungsi yang digunakan
@@ -87,7 +91,27 @@ namespace UsefulConcept.Concept.Delegate
         static void Show2(string firstName, string lastName ,int age) => Console.WriteLine($"Show2 with name : {firstName} {lastName}, and Age {age} is Called");
         static void Show3(string firstName, string lastName ,int age) => Console.WriteLine($"Show3 with name : {firstName} {lastName}, and Age {age} is Called");
 
-        //delegate is references type, it's like non-static methods
+        //Topic 3 -- 
 
+        static void HandleTopicThreeActionRun()
+        {
+            // for Func, we use methods from Topic 1, wheter is Sum and Difference
+            int a = 15;
+            int b = 5;
+
+            Func<int, int, int> funcDel = Sum;
+            Console.WriteLine($"it's called {nameof(funcDel)} with method sum, and result is {funcDel(a, b)}");
+
+            funcDel = Difference;
+            Console.WriteLine($"it's called {nameof(funcDel)} with method Diff, and result is {funcDel(a, b)}");
+
+
+            //for chain delegate, it will be invoke or call the last method called.
+            Func<int, int, int> funcChainDel = Sum;
+            funcChainDel += Difference;
+
+            Console.WriteLine($"it's called {nameof(funcChainDel)} with method Diff, and result is {funcChainDel(a, b)}");
+
+        }
     }
 }
