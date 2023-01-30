@@ -69,6 +69,7 @@ namespace UsefulConcept.Concept.Delegate
         //Topic 2 -- Action
         static void HandleTopicTwoActionRun()
         {
+            //pada deklarasi var untuk Action, itu harus sesuai dan urut dengan input parameter dari fungsi yang digunakan
             Action<string, string, int> actDel = Show1;
 
             //Single Action~!
