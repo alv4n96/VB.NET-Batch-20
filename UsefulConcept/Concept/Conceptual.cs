@@ -23,6 +23,10 @@ namespace UsefulConcept.Nullable
 
             var emp = new Employee(101);
 
+            var _this = new Employee(102);
+            _this.AddNum(23);
+            _this.AddNum(23);
+            _this.DisplayNum();
             Console.WriteLine(emp._id);
         }
 
