@@ -1,4 +1,5 @@
-﻿using UsefulConcept.Nullable;
+﻿using UsefulConcept.Concept.Delegate;
+using UsefulConcept.Nullable;
 
 internal class Program
 {

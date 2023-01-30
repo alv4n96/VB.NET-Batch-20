@@ -5,6 +5,7 @@ using System.Reflection;
 using System.Reflection.PortableExecutable;
 using System.Text;
 using System.Threading.Tasks;
+using UsefulConcept.Concept.Delegate;
 using UsefulConcept.Concept.Model;
 using UsefulConcept.Concept.MultipleValue;
 using static UsefulConcept.Concept.Model.AllShapeModel;
@@ -20,7 +21,14 @@ namespace UsefulConcept.Nullable
             //RunIsOperator();
             //RunAsOperator();
             //RunMultipleValue();
+            //GenericTestRun();
 
+            /* -- This is from handle from topics delegate -- */
+            TryDelegate.DelegateRun();
+        }
+
+        static void GenericTestRun()
+        {
             var emp = new Employee(101);
 
             var _this = new Employee(102);
