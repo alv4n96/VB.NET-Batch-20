@@ -6,6 +6,7 @@ using System.Reflection.PortableExecutable;
 using System.Text;
 using System.Threading.Tasks;
 using UsefulConcept.Concept.Delegate;
+using UsefulConcept.Concept.Lambda;
 using UsefulConcept.Concept.Model;
 using UsefulConcept.Concept.MultipleValue;
 using static UsefulConcept.Concept.Model.AllShapeModel;
@@ -23,8 +24,11 @@ namespace UsefulConcept.Nullable
             //RunMultipleValue();
             //GenericTestRun();
 
-            /* -- This is from handle from topics delegate -- */
-            TryDelegate.DelegateRun();
+            /* -- This is handle for topic delegate -- */
+            //TryDelegate.DelegateRun();
+
+            /* -- This is handle for topic Lambda -- */
+            TryLambda.LambdaRun();
         }
 
         static void GenericTestRun()
